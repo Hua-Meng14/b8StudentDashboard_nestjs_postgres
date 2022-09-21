@@ -5,7 +5,6 @@ import { UsersService } from "./users.service";
 import { ApiTags } from '@nestjs/swagger'
 // import { UserDTO } from "./user.dto";
 import { UserPost } from "../model/user.interface"
-import e from "express";
 
 @ApiTags('User')
 @Controller('user')
@@ -83,6 +82,3 @@ export class UsersController {
         }
     }
 }
-
-https://github.com/nestjs/typescript-starter.git
-https://github.com/Hua-Meng14/b8StudentDashboard_vue_nest_postgres.git
